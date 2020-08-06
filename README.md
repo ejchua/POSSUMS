@@ -1,7 +1,7 @@
 # POSSUMS
 MATLAB scripts to (1) conduct the porewater sampling routine and (2) analyze POSSUMS data.
 
-POSSUMS Flow Injection Analysis
+(2) POSSUMS Flow Injection Analysis
 
 Emily Chua
 
@@ -11,9 +11,11 @@ Run the MATLAB scripts in the following order.
 
 Important notes:
 
-•	Raw FabGuard data should be exported as .dat files and saved with the following filename convention: “yy_MM_dd-HH_mm”
+•	Raw FabGuard data should be exported as .dat files and saved with the following filename convention: “yy_MM_dd-HH_mm”.  They should be saved in a folder called "RawData\FabGuard".
 
-•	The porewater sampling log data are automatically saved as .txt files with the following filename convention: “PWSampler_MM_dd_yyyy hh_mm”
+•	The porewater sampling log data are automatically saved as .txt files with the following filename convention: “PWSampler_MM_dd_yyyy hh_mm”.  They should be saved in a folder called "RawData\PWLog".
+
+•	In addition, you should create the following four subfolders: "ProcessedData\FabGuard", "ProcessedData\PWLog", "Output\Timepts", and "Output\PeakAreas".
 
 Step 1: Data Processing.
 This step only has to be run once for all gases.
